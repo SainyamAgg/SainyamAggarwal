@@ -1,0 +1,1703 @@
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/*-------------------- Global Styles ----------------*/
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*---------X---------- Global Styles ------X------------*/
+
+/*------------------------- Navigation -----------21-----------------*/
+
+.nav-bar {
+    height: 0rem;
+    min-height: 21vh;
+    background: white;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.upper-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.social {
+    padding: 0.3rem 7rem;
+}
+
+.social-icons {
+    padding: 0 0.8rem;
+    color: white;
+}
+
+.social-icons:hover {
+    color: #ff7903;
+}
+
+.signin {
+    padding: 2px 2rem;
+}
+
+.text-grey {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text-grey:hover {
+    color: #ff7903;
+}
+
+.lower-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.brand {
+    width: 30%;
+    margin-top: -2px;
+}
+
+.logo-img {
+    width: 76%;
+}
+
+.brand-name {
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+    box-sizing: inherit;
+    
+}
+
+.brand-name .brand-name-icon {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+}
+
+.brand-name .brand-name-icon .brand-name-logo {
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.lower-nav .toggle-collapse {
+    position: absolute;
+    top: 1.2%;
+    width: 95%;
+    cursor: pointer;
+    display: none;
+}
+
+.lower-nav .toggle-collapse .toggle-icon {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.lower-nav .toggle-collapse .toggle-icon i {
+    font-size: 1.1rem;
+}
+
+.nav-list {
+    position: relative;
+    margin-right: auto;
+}
+
+.nav-items {
+    display: flex;
+
+}
+
+.nav-link  {
+    padding: 1.15rem 1.22rem;
+    text-transform: uppercase;
+}
+
+.nav-link a {
+    color: black;
+    border: 2px solid white;
+    padding: 2.17rem 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 15px;
+
+}
+
+.nav-link a:hover {
+    color: white;
+    background-color: black;
+}
+
+.social-2 {
+    padding: 2rem 1rem;
+    display: none;
+}
+
+.social-icons-2 {
+    padding: 0 0.6rem;
+    color: black;
+}
+
+.social-icons-2:hover {
+    color: #ff7903;
+}
+
+/*------------X------------ Navigation --------------X-------------*/
+
+/*-------------------------- Main Site Section ----------------------*/
+
+/*-------------------------- Site Title -----------------------------*/
+
+main .site-title {
+    background: white;
+    background-size: cover;
+    height: calc(100vh - 21vh);
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+main .site-title .site-background {
+    text-align: center;
+}
+
+main .site-title h1 {
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 1.6rem;
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+main .site-title h3 {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 4.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 22px;
+    color: black;
+}
+
+main .site-title .btn {
+    border: 2px solid black;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.8rem;
+    margin: 0 1.5rem;
+    color: black;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+main .site-title .btn:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    font-weight: 500;
+}
+
+/*-------------X------------ Site Title --------------X--------------*/
+
+/*---------------X---------- Main Site Section ---------X------------*/
+
+/*---------------------------- Site List -----------------------------*/
+
+main .site-list {
+    background: white;
+    height: 90vh;
+}
+
+main .site-list .site-list-container {
+}
+
+main .site-list .site-list-container .site-title-heading {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.site-title-heading h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main .site-list .site-list-container .site-list-container-items {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 3.5rem;
+}
+
+.self-development {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    margin-right: 1.5rem;
+}
+
+.self-discipline {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    margin-right: 1.5rem;
+}
+
+.human-relation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    margin-right: 1.5rem;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+.site-blog-img {
+}
+
+.site-icons img {
+    width: 100%;
+    height: auto;
+}
+
+.site-blog-heading a {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 17px;
+}
+
+.site-blog-para { 
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.site-blog-para a {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+/*-------------X-------------- Site List --------------X--------------*/
+
+/*---------------------------- Blog Site -----------------------------*/
+
+main .blog-site {
+    background: white;
+    height: auto;
+}
+
+main .blog-site .blog-site-container {
+    display: flex;
+    flex-direction: column;
+}
+
+main .blog-site .blog-site-container .blog-site-head {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+main .blog-site .blog-site-container .blog-site-head h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main .blog-site .blog-site-container .blog-site-posts {
+    display: flex;
+    flex-direction: column;
+}
+
+main .blog-site .blog-site-container .blog-site-posts .blog-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    height: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    
+}
+
+main .blog-site .blog-site-container .blog-site-posts .blog-1 .blog-1-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+main .blog-site .blog-site-container .blog-site-posts .blog-1 .blog-1-img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 75%;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main .blog-site .blog-site-container .blog-site-posts .blog-1 .blog-1-img a img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+main .blog-site .blog-site-container .blog-site-posts .blog-1 .blog-1-prop {
+    width: 50%;
+    padding-top: 0.5rem;
+}
+
+main .blog-site .blog-site-container .blog-site-posts .blog-1 .blog-1-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 95%;
+}
+
+.date h3 {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.category h3 {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.time h3 {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.date span {
+    font-family: "Montserrat", sans-serif;
+}
+
+.category span {
+    font-family: "Montserrat", sans-serif;
+}
+
+.time span {
+    font-family: "Montserrat", sans-serif;
+}
+
+.blog-1-heading h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+.blog-1-para {
+    margin-top: 1.5rem;
+}
+
+.blog-1-para p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.date {
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.category {
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.time {
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.site-btn {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 3rem 0;
+}
+
+.site-btn a {
+    border: 2px solid black;
+    padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+}
+
+.site-btn a:hover {
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    border: 2px solid white;
+}
+
+/*------------X--------------- Blog Site ----------X------------------*/
+
+/*---------------------------- Video Site ----------------------------*/
+
+main .video-site {
+    background: white;
+    height: 110vh;
+}
+
+main .video-site .video-site-container {
+    border: 2px solid white;
+}
+
+main .video-site .video-site-container .video-site-heading {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+main .video-site .video-site-container .video-site-heading h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+main .video-site .video-site-container .video-site-posts {
+    display: flex;
+    flex-direction: row;
+    margin: 0 1rem;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+}
+
+main .video-site .video-site-container .video-site-posts .video-1 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+    margin-right: 1rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+main .video-site .video-site-container .video-site-posts .video-2 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+main .video-site .video-site-container .video-site-posts .video-3 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+    margin-left: 1rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+
+main .video-site .video-site-container .video-site-posts .video-1 .video-1-img {
+    width: 100%;
+}
+
+main .video-site .video-site-container .video-site-posts .video-2 .video-2-img {
+    width: 100%;
+}
+
+main .video-site .video-site-container .video-site-posts .video-3 .video-3-img {
+    width: 100%;
+}
+
+main .video-site .video-site-container .video-site-posts .video-1 .video-1-img img {
+    width: 100%;
+}
+
+main .video-site .video-site-container .video-site-posts .video-2 .video-2-img img {
+    width: 100%;
+}
+
+main .video-site .video-site-container .video-site-posts .video-3 .video-3-img img {
+    width: 100%;
+}
+
+main .video-site .video-site-container .video-site-posts .video-1 .video-1-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+main .video-site .video-site-container .video-site-posts .video-1 .video-1-heading h2 {
+    color: black;
+}
+
+main .video-site .video-site-container .video-site-posts .video-2 .video-2-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+main .video-site .video-site-container .video-site-posts .video-2 .video-2-heading h2 {
+    color: black;
+}
+
+main .video-site .video-site-container .video-site-posts .video-3 .video-3-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+main .video-site .video-site-container .video-site-posts .video-3 .video-3-heading h2 {
+    color: black;
+}
+
+.video-site-btn {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 3rem 0;
+}
+
+.video-site-btn a {
+    border: 2px solid black;
+    padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+}
+
+.video-site-btn a:hover {
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    border: 2px solid white;
+}
+
+/*---------------X------------ Video Site --------------X-------------*/
+
+/*---------------------------- About Section ---------85vh----------------*/
+
+.about {
+    height: 85vh;
+    background: white;
+}
+
+.about .container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -25px
+}
+
+.about .container .about-heading {
+    margin-bottom: 60px;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+.about .about-wrapper {
+}
+.about .about-image {
+    width: 45%;
+    float: left;
+}
+
+.about-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about .about-content {
+    width: 50%;
+    float: right;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.about .about-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.about .about-content h2 {
+    margin-top: 2px; 
+}
+
+.about .line {
+    width: 150px;
+    height: 6px;
+    background-color: #333333;
+    margin-top: 40px;
+
+}
+
+.about ul {
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.about ul li {
+    padding-top: 5px;
+}
+
+.social-icon {
+    margin-top: 40px;
+}
+
+.social-icon a {
+    padding: 0px 7px;
+    color: black;
+}
+
+.social-icon a:hover {
+    color: #ff7903;
+}
+
+/*--------------X------------- About Section -----------X-------------*/
+
+/*----------------------------- Footer -------------------------------*/
+
+.footer {
+    height: auto;
+    background: black;
+}
+
+.footer .footer-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .footer-container .contact-us {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 3rem;
+}
+
+.footer .footer-container .contact-us .contact-us-heading {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer .footer-container .contact-us .contact-us-1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer .footer-container .contact-us .contact-us-1 .name input {
+    border: 2px solid white;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
+
+.footer .footer-container .contact-us .contact-us-1 .email input {
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.footer .footer-container .contact-us .contact-us-2 {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer .footer-container .contact-us .contact-us-2 textarea {
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.footer .footer-container .contact-us .contact-btn {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer .footer-container .contact-us .contact-btn .contact-btn-1 {
+    padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.footer .footer-container .contact-us .contact-btn .contact-btn-1:hover {
+    color: black;
+    background-color: #ff7903;
+    border: 1px solid #ff7903;
+}
+
+.footer .footer-container .lets-be-social {
+    width: 40%;
+    text-align: left;
+    padding-top: 4rem;
+    margin-left: 4rem;
+    padding-left: 2rem;
+}
+
+.footer .footer-container .lets-be-social span {
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.footer .footer-container .lets-be-social .footer-social-icons {
+    margin-top: 1rem;
+}
+
+.footer .footer-container .lets-be-social .footer-social-icons a {
+    padding-right: 1rem;
+    color: white;
+}
+
+.footer .footer-container .lets-be-social .footer-social-icons a:hover {
+    color: #ff7903;
+}
+
+.footer .last-container {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer .last-container span {
+    font-size: 12px;
+}
+
+/*--------------X-------------- Footer ----------------X--------------*/
+
+/*----------------------------- Articles Page -------------------------*/
+
+/*----------------------------- Archive Section ------------------------*/
+
+.articles-archive {
+    height: auto;
+}
+
+.articles-archive .articles-archive-container {
+    height: auto;
+}
+
+.articles-archive .articles-archive-container .archive-heading {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+}
+
+.articles-archive .articles-archive-container .archive-para {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.articles-archive .articles-archive-container .search-bar {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.articles-archive .articles-archive-container .search-bar .search-btn {
+    padding: 0.1rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.articles-archive .articles-archive-container .search-bar input {
+    height: 1.5rem;
+    border: 2px solid black;
+}
+
+/*-------------X--------------- Archive Section ------------X-----------*/
+
+/*------------------------------- Popular Articles ----------------------------*/
+
+.popular-articles {
+    height: auto;
+}
+
+.popular-articles .popular-articles-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.popular-articles .popular-articles-container .popular-articles-heading {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.popular-articles .popular-articles-container .b-c-1 {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.popular-articles .popular-articles-container .b-c-1 .s-d-c {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.popular-articles .popular-articles-container .b-c-1 .s-d-c .s-d-c-heading {
+    height: auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+}
+
+.popular-articles .popular-articles-container .b-c-1 .s-d-c .s-d-c-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.popular-articles .popular-articles-container .b-c-1 .s-d-c .s-d-c-content a {
+    padding-bottom: 1rem;
+}
+
+/*------------------X------------ Popular Articles --------------X-------------*/
+
+/*------------------------------- Articles By Date ----------------------------*/
+
+.articles-date {
+    height: auto;
+}
+
+.articles-date .articles-date-container {
+}
+
+.articles-date .articles-date-container .articles-date-heading {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.articles-date .articles-date-container .a-d-c-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.articles-date .articles-date-container .a-d-c-1 .a-d-c-1-d {
+    width: 50%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.articles-date .articles-date-container .a-d-c-1 .a-d-c-1-n {
+    width: 50%;
+    padding-top: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+/*----------------X-------------- Articles By Date ------------X---------------*/
+
+/*------------------------------- Arcticles Page Footer -----------------------*/
+
+.articles-footer {
+    height: auto;
+    background: black;
+}
+
+.articles-footer .articles-last-container {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.articles-footer .articles-last-container span {
+    font-size: 12px;
+}
+
+/*---------------X--------------- Arcticles Page Footer ----------X------------*/
+
+/*--------------X-------------- Articles Page ----------X--------------*/
+
+/*----------------------------- Videos Page -------------------------*/
+
+/*----------------------------- Archive Section ------------------------*/
+
+.videos-archive {
+    height: auto;
+}
+
+.videos-archive .videos-archive-container {
+    height: auto;
+}
+
+.videos-archive .videos-archive-container .videos-archive-heading {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+}
+
+.videos-archive .videos-archive-container .videos-archive-para {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.videos-archive .videos-archive-container .videos-search-bar {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.videos-archive .videos-archive-container .videos-search-bar .videos-search-btn {
+    padding: 0.1rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.videos-archive .videos-archive-container .videos-search-bar input {
+    height: 1.5rem;
+    border: 2px solid black;
+}
+
+/*-------------X--------------- Archive Section ------------X-----------*/
+
+/*------------------------------- Popular Videos ----------------------------*/
+
+.popular-videos {
+    height: auto;
+}
+
+.popular-videos .popular-videos-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.popular-videos .popular-videos-container .popular-videos-heading {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.popular-videos .popular-videos-container .b-c-1 {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.popular-videos .popular-videos-container .b-c-1 .s-d-c {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.popular-videos .popular-videos-container .b-c-1 .s-d-c .s-d-c-heading {
+    height: auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+}
+
+.popular-videos .popular-videos-container .b-c-1 .s-d-c .s-d-c-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.popular-videos .popular-videos-container .b-c-1 .s-d-c .s-d-c-content a {
+    padding-bottom: 1rem;
+}
+
+/*------------------X------------ Popular Videos --------------X-------------*/
+
+/*------------------------------- Videos By Date ----------------------------*/
+
+.videos-date {
+    height: auto;
+}
+
+.videos-date .videos-date-container {
+}
+
+.videos-date .videos-date-container .videos-date-heading {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.videos-date .videos-date-container .a-d-c-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.videos-date .videos-date-container .a-d-c-1 .a-d-c-1-d {
+    width: 50%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.videos-date .videos-date-container .a-d-c-1 .a-d-c-1-n {
+    width: 50%;
+    padding-top: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+/*----------------X-------------- Videos By Date ------------X---------------*/
+
+/*------------------------------- Videos Page Footer -----------------------*/
+
+.videos-footer {
+    height: auto;
+    background: black;
+}
+
+.videos-footer .videos-last-container {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.videos-footer .articles-last-container span {
+    font-size: 12px;
+}
+
+/*---------------X--------------- Arcticles Page Footer ----------X------------*/
+
+/*--------------X-------------- Articles Page ----------X--------------*/
+
+
+
+/*--------------------------- Viewport less than or equal to 450px -----------10------------------*/
+
+@media only screen and (max-width: 450px) {
+    
+    .nav-bar .lower-nav {
+        flex-direction: column;
+    }
+    
+    .nav-items {
+        flex-direction: column;
+    }
+    
+    .social {
+        display: none;
+    }
+    
+    .signin {
+        position: static;
+        margin-left: auto;
+    }
+    
+    .upper-nav {
+        height: auto;
+    }
+    
+    .brand {
+        display: none;
+    }
+    
+    .brand-name {
+        display: initial;
+    }
+    
+    .nav-list {
+        position: relative;
+        margin-right: 10px;
+        margin-top: 20px;;
+    }
+    
+    .nav-link a {
+        padding: 0.6rem 4px;
+        font-weight: 500;
+    }
+    
+    .text-grey {
+        font-size: 16px;
+    }
+    
+    .nav-bar {
+        height: 0rem;
+        min-height: 10vh;
+    }
+    
+    .lower-nav .toggle-collapse {
+        display: initial;
+    }
+    
+    .social-2 {
+        display: initial;
+    }
+    
+    main .site-title {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main .site-title h1 {
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+        margin-bottom: 1.3rem;
+        margin-top: 5px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    
+    main .site-title h3 {
+        text-align: center;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+        font-size: 16px;
+        color: black;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    main .site-title .btn {
+        border: 2px solid black;
+        padding: 0.2rem 1rem;
+        font-size: 1rem;
+        margin: 0 0.5rem;
+        color: black;
+        font-weight: 500;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    main .site-list {
+        height: auto;
+    }
+    
+    main .site-list .site-list-container .site-title-heading {
+        text-align: center;
+        padding-top: 2rem;
+   }
+    
+    main .site-list .site-list-container .site-title-heading h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    main .site-list .site-list-container .site-list-container-items {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .self-development {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        height: auto;
+        box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .self-discipline {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        height: auto;
+        box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+        margin-right: 1.5rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .human-relation {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        height: auto;
+        box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+        margin-right: 1.5rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .success {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        height: auto;
+        box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+        margin-left: 1rem;
+    }
+    
+    .site-blog-heading a {
+        font-family: "Montserrat", sans-serif;
+        color: black;
+        font-size: 15px;
+    }
+
+    .site-blog-para { 
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .site-blog-para a {
+        font-family: "Montserrat", sans-serif;
+        color: black;
+    }
+    
+    main .blog-site {
+        background: white;
+        height: auto;
+    }
+    
+    main .blog-site .blog-site-container .blog-site-posts .blog-1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        text-align: center;
+        height: auto;
+        padding-bottom: 1rem;
+        padding-top: 0rem;
+        padding-right: 0rem;
+    }
+    
+    main .blog-site .blog-site-container .blog-site-posts .blog-1 .blog-1-img {
+    margin-left: 0.5rem;
+    width: 40%;
+    padding-top: 1.7rem;
+    padding-left: 0rem;
+}
+
+main .blog-site .blog-site-container .blog-site-posts .blog-1 .blog-1-img a img {
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+main .blog-site .blog-site-container .blog-site-posts .blog-1 .blog-1-prop {
+    width: 40%;
+    padding-top: 0.5rem;
+}
+    
+    main .blog-site .blog-site-container .blog-site-posts .blog-1 .blog-1-content {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+    
+    .date h3 {
+    margin-top: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.category h3 {
+    margin-top: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.time h3 {
+    margin-top: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+    
+    .blog-1-heading h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+}
+
+.blog-1-para {
+    margin-top: 1rem;
+}
+
+.blog-1-para p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+    
+    .site-btn {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 3rem 0;
+}
+
+.site-btn a {
+    border: 2px solid black;
+    padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+    color: black;
+    font-weight: 500;
+}
+    
+    main .video-site {
+        height: auto;
+    }
+    
+    main .video-site .video-site-container .video-site-posts {
+    display: flex;
+    flex-direction: column;
+}
+    
+    main .video-site .video-site-container .video-site-posts .video-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-right: 1rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+        margin-bottom: 2rem;
+}
+
+main .video-site .video-site-container .video-site-posts .video-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 1rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    margin-bottom: 2rem;
+
+}
+
+main .video-site .video-site-container .video-site-posts .video-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-left: 0rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+    
+    .video-site-btn {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 3rem 0;
+}
+
+.video-site-btn a {
+    border: 2px solid black;
+    padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+    color: black;
+    font-weight: 500;
+}
+    
+    .about {
+        height: auto;
+        width: 100%;
+    }
+    
+    .container {
+        height: auto;
+        width: 100%;
+    }
+    
+    .about .container .about-heading {
+        margin-top: -10px;
+    }
+    
+    .container .about-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-top: -10px;
+    }
+    
+    .container .about-wrapper .about-image {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    
+    .container .about-wrapper .about-image img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .container .about-wrapper .about-content {
+        width: 100%;
+        height: auto;
+        text-align: left;
+        margin-top: 25px;
+        padding-bottom: 1rem;
+    }
+    
+    .container .about-wrapper .about-content h2 {
+        font-size: 20px;
+    }
+    
+    .container .about-wrapper .social-icon {
+        display: none;
+    }
+    
+    .container .about-wrapper .about-content ul {
+        font-size: 16px;
+        margin-top: -2px;
+    }
+    
+    .footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer .footer-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer .footer-container .contact-us {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer .footer-container .contact-us .contact-us-heading {
+        text-align: center;
+    }
+    
+    .footer .footer-container .contact-us .contact-us-heading h2 {
+        text-align: center;
+        margin-left: -105px;
+    }
+    
+    .footer .footer-container .contact-us .contact-us-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: -4.3rem;
+    }
+    
+    .footer .footer-container .contact-us .contact-us-1 .name {
+        padding-bottom: 1.5rem;
+    }
+    
+    .footer .footer-container .contact-us .contact-us-2 {
+        width: 75%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: -4rem;
+    }
+    
+    .contact-btn {
+    text-align: center;
+        width: 70%;
+}
+
+.contact-btn .contact-btn-1 {
+    border: 2px solid black;
+    padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+    
+    .footer .footer-container .lets-be-social {
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        transform: translateX(-3.5rem);
+        padding: 0;
+        margin-top: 3rem;
+    }
+    
+    .footer .footer-container .lets-be-social .footer-social-icons {
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer .last-container {
+        
+    }
+    
+}
+
+/*--------------------------- Viewport less than or equal to 450px -----------------------------*/
+
+/*--------------------------- Viewport greater than or equal to 451 px and less than or equal to 1023 px ---------11-------------------*/
+
+@media only screen and (min-width: 451px) and (max-width: 1023px) {
+    
+    .nav-bar .lower-nav {
+        flex-direction: column;
+    }
+    
+    .nav-items {
+        flex-direction: column;
+    }
+    
+    .social {
+        display: none;
+    }
+    
+    .signin {
+        position: static;
+        margin-left: auto;
+    }
+    
+    .upper-nav {
+        height: auto;
+    }
+    
+    .brand {
+        display: none;
+    }
+    
+    .brand-name {
+        display: initial;
+    }
+    
+    .nav-list {
+        position: relative;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+    
+    .nav-link a {
+        padding: 0.6rem 4px;
+        font-weight: 500;
+    }
+    
+    .text-grey {
+        font-size: 18px;
+    }
+    
+    .lower-nav .toggle-collapse {
+        display: initial;
+        top: 3%;
+    }
+    
+    .brand-name {
+        top: 6%;
+    }
+    
+    .brand-name .brand-name-icon .brand-name-logo {
+        font-size: 23px;
+    }
+    
+    .lower-nav .toggle-collapse .toggle-icon i {
+        font-size: 1.3rem;
+    }
+    
+    .nav-bar {
+        height: 0rem;
+        min-height: 11vh;
+    }
+    
+    .social-2 {
+        display: initial;
+    }
+    
+    
+}
+
+
+/*--------------X------------ Viewport greater than or equal to 451 px and less than or equal to 1023 px --------------X------------*/
+
